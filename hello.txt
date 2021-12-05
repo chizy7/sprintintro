@@ -1,0 +1,28 @@
+HELLO! 
+
+This is just a text file, so there's no code involved.
+
+Each person should add their name to this file once they're in.
+
+The purpose of this is just to make sure that everyone is able 
+to edit the project before you move ahead.
+
+================================
+WRITE YOUR NAMES BELOW THIS LINE
+================================
+
+Chizaram
+Jennifer
+
+Nirvana
+
+
+==================================================
+LATER: Brainstorm at least 5 ideas below this line
+==================================================
+
+- Music
+- Biking
+- Comp Sci
+- Computer screen saying "cout << "Play some music!" << endl;"
+
