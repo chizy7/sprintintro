@@ -7,9 +7,7 @@ var slider;
 
 function setup() { 
   createCanvas(600, 500); 
-  noStroke(); 
   mySound = createAudio('sound/lost_in_paradise.mp3')
-  //song.setVolume(0.5);
   slider = createSlider(0, 1, 0.5, 0.01); 
   slider.position(298, 300);
   slider.style('width', '80px');
@@ -56,10 +54,8 @@ function draw() {
   strokeWeight(2);
   textFont(fuzzyBubbles);
   text("cout << \"Play some music!\" << endl;", 300, 210);
-  //drawWords(width * 0.25);
-
-  let t = frameCount / 60; // update time
-
+   
+  let t = frameCount / 60; // update time 
   // create a random number of snowflakes each frame
   for (let i = 0; i < random(5); i++) {
     snowflakes.push(new snowflake()); // append snowflake object
@@ -84,7 +80,7 @@ function mousePressed() {
 // snowflake class
 function snowflake() {
   fill(252, 255, 253)
-  noStroke();
+
   // initialize coordinates
   this.posX = 0;
   this.posY = random(-50, 0);
