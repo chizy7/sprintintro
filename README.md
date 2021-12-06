@@ -13,6 +13,10 @@ The next seven slides have seven challenges of increasing difficulty. Your job i
 
 Try to finish at least through challenge 3. 
 
+## Walkthrough gif
+
+![](https://i.imgur.com/viSq92F.gif)
+
 
 
 ## The Lab
